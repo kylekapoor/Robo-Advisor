@@ -1,12 +1,12 @@
 # 📊 Stocks Portfolio Robo-Advisor
 
-A data-driven portfolio analysis and investment simulation tool leveraging real-time market data, statistical modeling, and Monte Carlo simulations. Designed to mimic the logic behind robo-advisors and assist with dynamic portfolio optimization.
+A data-driven portfolio analysis and investment simulation tool leveraging real-time market data via the Yahoo Finance API. Combines statistical modeling with Monte Carlo simulations to optimize and visualize portfolio performance.
 
 ---
 
 ## 💡 Overview
 
-Fetches and analyzes data from **3,000+ public stocks** to simulate thousands of potential investment outcomes using historical trends and risk modeling. Built to support competition-grade financial analysis with visual feedback and statistical insights.
+Fetches and analyzes data from **3,000+ public stocks** using the Yahoo Finance API (`yfinance`) to simulate thousands of potential investment outcomes. Designed to mimic robo-advisor logic for dynamic risk-adjusted decision-making.
 
 ---
 
@@ -14,13 +14,14 @@ Fetches and analyzes data from **3,000+ public stocks** to simulate thousands of
 
 - **Languages:** Python  
 - **Libraries:** NumPy, Pandas, Matplotlib, YFinance  
+- **API:** Yahoo Finance (via `yfinance`)  
 - **Environment:** Anaconda, Jupyter Notebook  
 
 ---
 
 ## ⚙️ Features
 
-- 📈 Real-time financial data ingestion via YFinance  
+- 📈 Real-time stock data ingestion via Yahoo Finance API  
 - 🎲 Monte Carlo simulations for return forecasting and risk modeling  
 - 📊 Visualizations for ROI distribution, volatility, and asset correlation  
 - 🧼 Built-in data cleaning, multithreading, and batch processing  
